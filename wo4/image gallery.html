@@ -1,26 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>image gallery</title>
-    <link rel="stylesheet" href="./image gallery.css">
-</head>
+    <link rel="stylesheet" href="./image gallery.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-<body>
-     <div class="line3">
-        <img src="./20200117_115610.jpg" alt="">
-        <img src="./20200117_135913.jpg" alt="">
-        <img src="./20200117_163519.jpg" alt="">
-        <img src="./20200910_125539.jpg" alt="">
-        <img src="./20200122_112059.jpg" alt="">
-        <img src="./20200123_155502.jpg" alt="">
-        <img src="./20200830_173116.jpg" alt="">
-        <img src="./20200830_173232.jpg" alt="">
-        <img src="./20200830_174645.jpg" alt="">
+      body {
+        border: 15px solid rgb(207, 62, 62);
+        margin: 20px auto;
+        padding: 20px;
+        width: 85%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+      }
+
+      .date {
+        color: blue;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        padding: 20px 0;
+      }
+
+      .post h2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: cornflowerblue;
+        padding-bottom: 1rem;
+      }
+
+      .post .quote {
+        border-left: 5px solid rgb(221, 179, 12);
+        padding-left: 0.5rem;
+      }
+
+      .post.info {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="line3">
+      <img src="./20200117_115610.jpg" alt="" />
+      <img src="./20200117_135913.jpg" alt="" />
+      <img src="./20200117_163519.jpg" alt="" />
+      <img src="./20200910_125539.jpg" alt="" />
+      <img src="./20200122_112059.jpg" alt="" />
+      <img src="./20200123_155502.jpg" alt="" />
+      <img src="./20200830_173116.jpg" alt="" />
+      <img src="./20200830_173232.jpg" alt="" />
+      <img src="./20200830_174645.jpg" alt="" />
     </div>
-</body>
+    <link
+      href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
+    <div class="post">
+      <div class="date">2020/7</div>
+      <h2>My summmer in Kentin</h2>
+
+      <p class="quote">
+        In summer I went to the Kentin with my high school classmate,they are
+        also my best friend too, we were at the thouthest area of Taiwan and had
+        a lot of good memory there. here are some picture of where we had been.
+      </p>
+
+      <p class="post-info">The one with surfboard is me !</p>
+
+      <p class="post-info">
+        Many great views in Kentin make you want to get back here again!
+      </p>
+    </div>
+
+    <!-- <hr> -->
+    <hr />
+
+    <div class="post">
+      <div class="date">2019/1</div>
+      <h2>My fall in japan</h2>
+
+      <p class="quote">
+        On those days in japan,I'm also with my high school classmate and same
+        member when I went to Kentin. It was fall but there did not have lots of
+        snow,because some kind of weather sistuation... Anyway it was still had
+        lots of fun with my boys.
+      </p>
+
+      <p class="post-info">
+        The picture of colorful glass wall.i took it in a small airport. Lots of
+        japanese culture elements in it!
+      </p>
+
+      <p class="post-info">
+        I'm also took some picture of Japanese castle,temple and japanese foods
+        sold on train.
+      </p>
+    </div>
+  </body>
 </html>
